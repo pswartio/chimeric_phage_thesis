@@ -47,7 +47,7 @@ seq_lengths_plot <- ggplot(lengths_plot, aes(x = length, y = seq_names)) +
         axis.text.x = element_text(angle=270,hjust=1,vjust=0.5,size=3))
 #Display plot
 seq_lengths_plot
-ggsave(filename='tesetrererere.png',plot=seq_lengths_plot, height=10,width=1.5,units='cm',dpi=1000)
+ggsave(filename='test',plot=seq_lengths_plot, height=10,width=1.5,units='cm',dpi=1000)
 
 
 ######## PROP PLOT
