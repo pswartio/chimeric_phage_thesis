@@ -13,7 +13,7 @@ setwd("/Users/pimswart/Downloads/P_all_collected_gff_new_prokka_notcorrupt")
 
 gff_files <- dir("/Users/pimswart/Downloads/P_all_collected_gff_new_prokka_notcorrupt", pattern = ".gff", full.names = T)
 gffs <- load_gff_list(gff_files)
-print("kanker")
+print("test")
 strain_names <- read.table("/Users/pimswart/Downloads/namess.txt")%>%
   #Rename the columns
   rename(Genome = V1, Name = V2) %>%
